@@ -1,4 +1,4 @@
-# BenshiaiTest
+# benshi.ai Test
 Mobile App Developer Test
 
 See [REST API project](https://github.com/typicode/json-server) here 
