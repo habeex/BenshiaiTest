@@ -5,6 +5,7 @@ class Constants {
         const val BASE_URL = "https://jsonplaceholder.typicode.com"
         const val IMAGE_BASE_URL = "https://picsum.photos/seed"
         const val STATIC_MAP = "https://maps.googleapis.com/maps/api/staticmap?"
-        const val API_KEY = "AIzaSyA-wZm1DgI_PtRn_ngCEvudFdILny-3gco"
+        ///TODO google api key is required to get staticmap
+        const val API_KEY = ""
     }
 }
