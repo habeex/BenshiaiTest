@@ -29,7 +29,15 @@ This app use collection of the [Architecture Components](https://developer.andro
 
 ## Rquirement 
 [Google api key](https://developers.google.com/maps/documentation/javascript/get-api-key) is required to get author location map maker 
-
+#### Kotlin
+```kotlin
+binding.mapImageView.load("${Constants.STATIC_MAP}center=${it.user.address.geo.lat}%2c%20${it.user.address.geo.lng}&zoom=12&size=400x400&key=${Constants.API_KEY}"){
+                crossfade(true)
+                crossfade(750)
+                placeholder(R.drawable.ic_baseline_image_24)
+                scale(Scale.FILL)
+            }
+```
 
 ## 📖 Things to doto 
 There is still room for improvement
